@@ -9,11 +9,28 @@
     
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1 >
+                <img class="header__logo__img" src="dist/images/disneyplus.svg" alt="">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a class="button button--secondary" href="#">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a class="button button--dark" href="#">entrar</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero_content_branding">
+            <div class="hero_content_branding">
                 <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disnei+" >
-            </h1>
+            </div>
             <h3 class="title--small">
                 As melhores historias em um so lugar.
             </h3>
@@ -153,13 +170,143 @@
         </p>
     </section>
 
-    <section class="watch-anywhere">
+    <section class="image-text-section">
         <img src="dist/images/tv_pc_tablet_celular.png" alt="">
-        <div >
+        <div class="image-text-section__text_container">
             <h2 class="title">Assista do seu jeito</h2>
             <p class="text--big">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam repudiandae similique, pariatur fuga distinctio placeat corporis blanditiis maiores officia totam alias animi doloremque et beatae accusamus iste? Et, ut laborum.</p>
         </div>
     </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
+            <img src="dist/images/fundo_rei_leao.png" alt="">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title">Baixe Filmes e series</h2>
+            <p class="text--big">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam repudiandae similique, pariatur fuga </p>
+        </div>
+    </section>
+
+    <section class="available-devices">
+        <h2 class="title">Disponivel nos seus dispositivos favoritos</h2>
+
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item"> 
+                <img src="dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>macOs</li>
+                    <li>chromeOs</li>
+                    <li>windowns</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item"> 
+                <img src="dist/images/dispositivos/tv.png" alt="">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>macOs</li>
+                    <li>chromeOs</li>
+                    <li>windowns</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item"> 
+                <img src="dist/images/dispositivos/videogames.png" alt="">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>macOs</li>
+                    <li>chromeOs</li>
+                    <li>windowns</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item"> 
+                <img src="dist/images/dispositivos/celular.png" alt="">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>macOs</li>
+                    <li>chromeOs</li>
+                    <li>windowns</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    resposta pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item faq__questions">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    resposta pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    resposta pergunta
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="dist/images/disneyplus.svg" alt="">
+        <ul class="footer__links">
+            <div class="languague">
+                <li class="footer__links__item">
+                    <img src="dist/images/icones/globe.svg" alt="">
+                    <select>
+                        <option>English</option>
+                        <option selected>Portugues</option>
+                    </select>
+                </li>
+            </div>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Termos e condiçao de uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">bla bla bla</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">tututu</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">tutititi</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">tutititi</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">tutititi</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">tutititi</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">tutititi</a>
+            </li>
+        </ul>
+        <p class="text--small">
+            &copy;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae perspiciatis eveniet voluptates. Vitae veritatis earum eos, accusamus corporis libero possi
+        </p>
+        <p class="text--small">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse et
+        </p>
+        </div>
+    </footer>
     
 
     <script src="./src/scripts/main.js" defer></script>
